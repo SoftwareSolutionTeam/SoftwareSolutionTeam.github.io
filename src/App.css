@@ -1,3 +1,25 @@
-body{
-
+.related-product-image {
+  object-fit: contain;
+  height: 250px;
+  width: 250px;
+}
+.wish-list{
+  position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+.thumb-wrapper {
+	padding: 25px 15px;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.wishlist-red-color::before{
+color:red !important;
 }

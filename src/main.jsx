@@ -15,13 +15,17 @@ import RelatedProducts from "./components/ui/products-components/RelatedProducts
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-    <div className="">
-      <Navigation />
-      <Header />
-      <App />
-      <RelatedProducts />
-      <Footer />
-    </div>
+      <div className="">
+        <Navigation />
+        <Header />
+        <App />
+        <div className="row  justify-content-center">
+          <div className="col-12">
+            <RelatedProducts />
+          </div>
+        </div>
+        <Footer />
+      </div>
     </BrowserRouter>
   </React.StrictMode>
 );
